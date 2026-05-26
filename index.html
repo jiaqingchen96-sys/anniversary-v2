@@ -140,13 +140,13 @@ body {
 /* ===== Ending ===== */
 .ending {
   min-height: 100vh; display: flex; flex-direction: column;
-  align-items: center; justify-content: center; text-align: center;
+  align-items: center; justify-content: flex-start; text-align: center;
   background: linear-gradient(135deg, #fff0f0 0%, #ffe0e0 40%, #fff0f5 100%);
-  position: relative; overflow: hidden; padding: 40px 20px;
+  position: relative; overflow: hidden; padding: 60px 20px 40px;
 }
-.ending-title { font-size: 2rem; font-weight: 700; color: #d46868; margin-bottom: 15px; letter-spacing: 3px; }
-.ending-text { font-size: 1.2rem; color: #b88080; line-height: 2.2; max-width: 650px; }
-.ending-heart { font-size: 3rem; margin: 25px 0; animation: heartBeat 1.2s ease-in-out infinite; }
+.ending-title { font-size: 1.6rem; font-weight: 700; color: #d46868; margin-bottom: 12px; letter-spacing: 3px; }
+.ending-text { font-size: 1rem; color: #b88080; line-height: 1.9; max-width: 650px; }
+.ending-heart { font-size: 2.2rem; margin: 15px 0; animation: heartBeat 1.2s ease-in-out infinite; }
 @keyframes heartBeat { 0%,100%{transform:scale(1)} 30%{transform:scale(1.3)} 60%{transform:scale(1)} }
 .ending-puppies { display: flex; gap: 50px; margin-top: 20px; }
 .ending-puppies img { width: 100px; opacity: 0.4; animation: floatDeco 6s ease-in-out infinite; }
